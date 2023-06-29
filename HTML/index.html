@@ -4,24 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../assets/design.css" />
+    <link rel="stylesheet" href="../assets/css/design.css" />
     <title>Groove Music</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/img/logo.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <!-- Cabeçário! -->
     <header>
       <div id="Top">
-        <img src="/assets/img/logo.jpeg" alt="Logo do Hotel Careca Tower" />
+        <img
+          src="/assets/img/logo.png"
+          alt="Logo do Groove Music"
+          class="logo"
+        />
         <nav>
           <ul>
-            <li class="title"><a href="#">Premium</a></li>
-            <li class="title"><a href="#">Suporte</a></li>
-            <li class="title"><a href="#">Baixar</a></li>
-            <li class="title">|</li>
-            <li class="title"><a href="#">Entrar</a></li>
-            <li class="title"><a href="#">Cadastre-se</a></li>
+            <li class="title1"><a href="./premium.html">Premium</a></li>
+            <li class="title1"><a href="#suporte">Suporte</a></li>
+            <li class="title1"><a href="#baixar">Baixar</a></li>
+            <li class="title1">|</li>
+            <li class="title1"><a href="./login.html">Entrar</a></li>
+            <li class="title1"><a href="./cadastro.html">Cadastre-se</a></li>
           </ul>
         </nav>
+      </div>
+      <div id="celular">
+        <img src="../assets/img/celular.png" alt="" />
+        <div>
+          <p class="title2">Escute milhões de músicas grátis.</p>
+          <button>Baixe o Groove</button>
+        </div>
       </div>
     </header>
 
@@ -29,36 +45,36 @@
       <!-- Segunda page - Por que escolher o Groove? -->
       <section id="Servicos">
         <div class="box2">
-          <h1 class="title">Por que escolher o Groove?</h1>
+          <h1 class="title2">Por que escolher o Groove?</h1>
           <div class="descricaoHospedagem">
             <div class="desc">
-              <img src="../assets/img/icons.png" alt="" class="icone" />
-              <h2>Ouça suas músicas favoritas.</h2>
-              <p>
+              <img src="../assets/img/icone1.png" alt="" class="icone" />
+              <h2 class="title2">Ouça suas músicas favoritas.</h2>
+              <p class="title3">
                 Ouça suas músicas prediletas e descubra novas músicas e
                 podcasts.
               </p>
             </div>
             <div class="desc">
-              <img src="../assets/img/icons.png" alt="" class="icone" />
-              <h2>Playlists mais fáceis de usar.</h2>
-              <p>
+              <img src="../assets/img/icone2.png" alt="" class="icone" />
+              <h2 class="title2">Playlists mais fáceis de usar.</h2>
+              <p class="title3">
                 Vamos te ajudar a criar playlists. Ou você pode curtir playlists
                 criadas por especialistas em música.
               </p>
             </div>
             <div class="desc">
-              <img src="../assets/img/icons.png" alt="" class="icone" />
-              <h2>Do jeitinho que você gosta.</h2>
-              <p>
+              <img src="../assets/img/icone3.png" alt="" class="icone" />
+              <h2 class="title2">Do jeitinho que você gosta.</h2>
+              <p class="title3">
                 Conte pra gente o que você gosta de ouvir, e nós vamos
                 recomendar músicas para você.
               </p>
             </div>
             <div class="desc">
-              <img src="../assets/img/icons.png" alt="" class="icone" />
-              <h2>Economize seu pacote de dados.</h2>
-              <p>
+              <img src="../assets/img/icone4.png" alt="" class="icone" />
+              <h2 class="title2">Economize seu pacote de dados.</h2>
+              <p class="title3">
                 Para consumir menos dados ao ouvir música, ative a Economia de
                 dados em Configurações.
               </p>
@@ -70,10 +86,66 @@
       <!-- Frase de efeito -->
       <section>
         <div id="frase">
-          <p>É grátis</p>
-          <p>Você livre de anúncios</p>
+          <p class="title2">É grátis.</p>
+          <p class="title2">Você livre de anúncios!</p>
+        </div>
+      </section>
+
+      <!-- Acordeon -->
+      <section>
+        <div id="acordeon">
+          <p class="title2">Alguma dúvida?</p>
+          <p>acordeon</p>
+        </div>
+      </section>
+
+      <!-- Download -->
+      <section>
+        <div id="download">
+          <p id="baixar" class="title2">Gostou? Então aperta o Play!</p>
+          <button>Baixe o Groove Free</button>
         </div>
       </section>
     </main>
+
+    <footer>
+      <div id="containerFooter">
+        <div>
+          <a href="#Top"
+            ><img src="/assets/img/logo.png" alt="Logo do Groove Music"
+          /></a>
+        </div>
+        <div>
+          <h3 class="title2">EMPRESA</h3>
+          <ul>
+            <li class="title3">Sobre</li>
+            <li class="title3">Empregos</li>
+            <li class="title3">For the Record</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="title2 , comunidades">COMUNIDADES</h3>
+          <ul>
+            <li class="title3">Para artistas</li>
+            <li class="title3">Desenvolvedores</li>
+            <li class="title3">Publicidade</li>
+            <li class="title3">Investidores</li>
+            <li class="title3">Fornecedores</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="title2">LINKS ÚTEIS</h3>
+          <ul>
+            <li id="suporte" class="title3">Suporte</li>
+            <li class="title3">Player da Web</li>
+            <li class="title3">Aplicativo móvel grátis</li>
+          </ul>
+        </div>
+        <div>
+          <div><img src="" alt="instagram" /> <img src="" alt="twitter" /></div>
+          <div><img src="" alt="facebook" /> <img src="" alt="tiktok" /></div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
