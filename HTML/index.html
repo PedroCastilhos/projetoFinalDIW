@@ -47,9 +47,11 @@
         <img src="../assets/img/celular.png" alt="" />
         <div>
           <p class="title2">Escute milhões de músicas grátis.</p>
-          <button class="btn btn-primary btn-lg" type="submit">
-            Baixe Groove aqui
-          </button>
+          <div>
+            <button class="btn btn-primary btn-lg" type="submit">
+              Baixe Groove aqui
+            </button>
+          </div>
         </div>
       </div>
     </header>
@@ -106,6 +108,7 @@
 
       <!-- Acordeon -->
       <section id="acordeon">
+        <h1 class="title2">Alguma dúvida?</h1>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -149,7 +152,9 @@
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+                <strong
+                  >Como faço para ativar o modo de Economia de dados?</strong
+                >
               </button>
             </h2>
             <div
@@ -158,15 +163,10 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <p>1. Clique em Início.</p>
+                <p>2. Clique em Configurações.</p>
+                <p>3. Clique em Economia de dados.</p>
+                <p>4. Ative a “Economia de dados”.</p>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                <strong>Só é possível ouvir música em ordem aleatória?</strong>
               </button>
             </h2>
             <div
@@ -189,15 +189,14 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <p>
+                  As playlists com o ícone de ordem aleatória tocam dessa forma.
+                </p>
+
+                <p>
+                  Nas playlists que não têm esse ícone, você pode clicar em
+                  qualquer música para ouvir.
+                </p>
               </div>
             </div>
           </div>
@@ -208,7 +207,11 @@
       <section>
         <div id="download">
           <p id="baixar" class="title2">Gostou? Então aperta o Play!</p>
-          <button>Baixe o Groove Free</button>
+          <div class="d-grid gap-2 col-2 mx-auto">
+            <button class="btn btn-primary btn-lg" type="button">
+              Baixe Groove Music
+            </button>
+          </div>
         </div>
       </section>
     </main>
