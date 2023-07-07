@@ -5,6 +5,47 @@
   margin: 0;
 }
 
+@media screen and (max-width: 500px) {
+  #Servicos .title2 {
+    font-size: 2rem;
+  }
+
+  .link {
+    display: none;
+  }
+
+  #celular p {
+    display: flex;
+    font-size: 2rem;
+  }
+
+  #celular img {
+    display: none;
+  }
+
+  .box2 {
+    margin: auto;
+    font-size: 0.5rem;
+  }
+
+  #frase p {
+    font-size: 2.8rem;
+  }
+
+  #download p {
+    font-size: 2rem;
+  }
+
+  #download button {
+    width: 150px;
+  }
+
+  #containerFooter li,
+  h3 {
+    display: none;
+  }
+}
+
 .title1 {
   font-size: 1rem;
   color: #fff;
@@ -46,6 +87,7 @@ nav .image-container {
 nav {
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 
 nav ul li {
@@ -197,4 +239,28 @@ footer li {
 
 .comunidades {
   margin-top: 80px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5d5d5d;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.button:active {
+  background-color: #ffffff;
+  color: black;
 }

@@ -52,6 +52,10 @@ nav ul li a:hover {
   color: #b19843;
 }
 
+.premium {
+  color: #b19843;
+}
+
 #celular {
   display: flex;
   align-items: center;
@@ -62,7 +66,7 @@ nav ul li a:hover {
 }
 
 #celular div {
-  margin: 0px 150px;
+  margin: 0px 100px;
 }
 
 #Top img {
